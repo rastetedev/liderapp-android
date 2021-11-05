@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_temporal"
+    android:orientation="vertical"
+    tools:context=".presentation.ui.activity.home.EmergencyActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary2"
+        android:elevation="5dp">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/lider_boy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="Hola, Liderboy" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/emergency_subtitle"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/btn_culture"
+                style="@style/emergency"
+                tools:ignore="ContentDescription" />
+
+            <LinearLayout
+                style="@style/OptionGeneralDirectoryTitle"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    style="@style/TextShapeBorderTitle"
+                    android:text="@string/emergency_num" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginStart="18dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/emergency_detail"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_0"
+                style="@style/OptionGeneralDirectory"
+                android:background="@drawable/shape_grey_one">
+
+                <TextView
+                    style="@style/TextShapeBorder"
+                    android:text="113"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginStart="18dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/emergency_minsa"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_1"
+                style="@style/OptionGeneralDirectory"
+                android:background="@drawable/shape_grey_two">
+
+                <TextView
+                    style="@style/TextShapeBorder"
+                    android:text="105"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginStart="18dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/emergency_police"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_2"
+                style="@style/OptionGeneralDirectory"
+                android:background="@drawable/shape_grey_one">
+
+                <TextView
+                    style="@style/TextShapeBorder"
+                    android:text="110"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="18dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/emergency_carretera"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_3"
+                style="@style/OptionGeneralDirectory"
+                android:background="@drawable/shape_grey_two">
+
+                <TextView
+                    style="@style/TextShapeBorder"
+                    android:text="115"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginStart="18dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/emergency_defensa_civil"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_4"
+                style="@style/OptionGeneralDirectory"
+                android:background="@drawable/shape_grey_one">
+
+                <TextView
+                    style="@style/TextShapeBorder"
+                    android:text="116"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginStart="18dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/emergency_bomberos"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_5"
+                style="@style/OptionGeneralDirectory"
+                android:background="@drawable/shape_grey_two">
+
+                <TextView
+                    style="@style/TextShapeBorder"
+                    android:text="1818"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginStart="18dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/emergency_denuncias"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_6"
+                style="@style/OptionGeneralDirectory"
+                android:background="@drawable/shape_grey_one">
+
+                <TextView
+                    style="@style/TextShapeBorder"
+                    android:text="100"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginStart="18dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/emergency_violencia"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_7"
+                style="@style/OptionGeneralDirectory"
+                android:background="@drawable/shape_grey_two">
+
+                <TextView
+                    style="@style/TextShapeBorder"
+                    android:text="106"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginStart="18dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/emergency_samu"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

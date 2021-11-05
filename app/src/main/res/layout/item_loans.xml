@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/ContentGeneralItemLoans"
+    app:cardBackgroundColor="@color/grey_edit_disabled"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="5dp"
+    app:contentPaddingBottom="8dp"
+    app:contentPaddingLeft="8dp"
+    app:contentPaddingRight="8dp"
+    app:contentPaddingTop="8dp">
+
+    <LinearLayout
+        android:id="@+id/contentLinear"
+        style="@style/LinearContentPrincipal">
+
+        <LinearLayout
+            android:id="@+id/contentLinearSecond"
+            style="@style/LinearContentSecond">
+
+            <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                android:id="@+id/circularProgressBar"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:cpb_background_progressbar_color="@color/redTransparent"
+                app:cpb_background_progressbar_width="10dp"
+                app:cpb_progress="50"
+                app:cpb_progress_direction="to_right"
+                app:cpb_progress_max="200"
+                app:cpb_progressbar_color="@color/colorPrimary2"
+                app:cpb_progressbar_width="10dp"
+                app:cpb_round_border="false" />
+
+            <LinearLayout style="@style/LinearContentItem">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/type_loan"
+                    style="@style/TextItemLoan" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/reason_loan"
+                    style="@style/TextItemLoan" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/date_loan"
+                    style="@style/TextItemLoan" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View style="@style/ViewItemLoan" />
+
+        <LinearLayout style="@style/LinearFootItemLoans">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/total_loan"
+                style="@style/TextTotalItemLoan" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/pay_loan"
+                style="@style/TextPayItemLoan" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_temporal"
+    android:orientation="vertical"
+    tools:context=".presentation.ui.activity.directorio.bienestarsocial.AccidenteDeTrabajoActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary2"
+        android:elevation="5dp">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="16dp"
+                android:text="Estamos aquí para ayudarte."
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="24dp"
+                android:background="@drawable/shape_main_button"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="ACCIDENTE DE TRABAJO"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/btn_que_accidente_trabajo"
+                style="@style/OptionGeneralDirectory"
+                android:background="@drawable/shape_grey_one">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center|bottom"
+                    android:gravity="center_vertical"
+                    android:maxLines="2"
+                    android:text="¿Qué es un accidente de trabajo?"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="italic|bold" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginEnd="18dp"
+                    android:src="@drawable/ic_down"
+                    android:tint="@color/colorPrimary2" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/see_more_que_accidente_trabajo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:maxLines="3"
+                    android:padding="10dp"
+                    android:text="Un accidente de trabajo es toda lesión corporal que el trabajador sufra con ocasión o por consecuencia del trabajo que ejecute por cuenta ajena, dentro de sus horas y lugar de trabajo."
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/btn_informar_accidente_trabajo"
+                style="@style/OptionGeneralDirectory"
+                android:background="@drawable/shape_grey_two">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center|bottom"
+                    android:gravity="center_vertical"
+                    android:maxLines="2"
+                    android:text="¿Cómo informar un accidente de trabajo?"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginEnd="18dp"
+                    android:src="@drawable/ic_down"
+                    android:tint="@color/colorPrimary2" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/see_more_informar_accidente_trabajo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:maxLines="3"
+                    android:padding="10dp"
+                    android:text="Si ocurre un accidente de trabajo en la unidad, este se debe informar al supervisor de la unidad, líder zonal, centro de control y bienestar social; para que se asegure la atención médica del accidentado."
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/btn_donde_accidente_transito"
+                style="@style/OptionGeneralDirectory.AccidenteTrabajo"
+                android:background="@drawable/shape_grey_one">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center|bottom"
+                    android:gravity="center_vertical"
+                    android:maxLines="2"
+                    android:text="¿Dónde se debe atender un accidente \nde trabajo y bajo qué póliza?"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginEnd="18dp"
+                    android:src="@drawable/ic_down"
+                    android:tint="@color/colorPrimary2" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/see_more_donde_accidente_transito"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:padding="10dp"
+                    android:text="La atención médica de un accidente de trabajo, se debe realizar siempre en una clínica afiliada a la póliza de seguro contra accidentes de trabajo de riesgo (SCTR) nunca en un hospital de ESSALUD o del MINSA. La póliza con la que se atienden los accidentes de trabajo es de RIMAC SEGUROS."
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/btn_chat"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/ir_a_chat" />
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

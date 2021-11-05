@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorLightGray">#F4F4F4</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorDivision">#e0e0e0</color>
+    <color name="colorNavIcon">#1d1d1d</color>
+
+    <color name="colorGoogleSignIn">#d34836</color>
+    <color name="colorGoogleSignInPressed">#b02513</color>
+    <color name="colorEmailSignIn">#009688</color>
+    <color name="colorEmailSignInPressed">#004D40</color>
+
+    <color name="gray_4">#909094</color>
+
+    <color name="transparent_gray">#6f212121</color>
+
+    <color name="white">#FFF</color>
+    <color name="whiteTransparent">#20FFFFFF</color>
+    <color name="grey_edit">#c5c5c5</color>
+    <color name="grey_edit_disabled">#EEEEEE</color>
+    <color name="black">#000</color>
+    <color name="black_medium">#7F000000</color>
+    <color name="black_text">#010000</color>
+    <color name="red">#CF2D3A</color>
+    <color name="redTransparent">#99B12E28</color>
+    <color name="redTransparent_two">#B3B12E28</color>
+
+    <color name="black_lock">#80000000</color>
+    <color name="black_transparent">#44000000</color>
+    <color name="yellow">#b4963c</color>
+    <color name="shadow">#30CACACA</color>
+    <color name="tab_disabled">#767376</color>
+    <color name="sms_correct">#6bbe11</color>
+    <color name="home_background">#f9f9f9</color>
+    <color name="neon_red">#e81c36</color>
+    <color name="disable_color">#FFCCCCCC</color>
+    <color name="divide_color">#00000000</color>
+
+    <color name="consultant">#b66fa6</color>
+    <color name="coral">#cd5b5b</color>
+    <color name="amber">#e8b74b</color>
+    <color name="perla">#db9e8a</color>
+    <color name="topaz">#2d7ab0</color>
+    <color name="sparkly">#b19260</color>
+
+
+    <color name="text_color">#00A242</color>
+
+
+    <color name="text_primary">#000</color>
+    <color name="text_secondary">#7C7C7C</color>
+    <color name="text_tertiary">#999</color>
+    <color name="text_fourth">#801d1d26</color>
+
+
+
+    <color name="colorPrimary2">#B12E28</color>
+    <color name="colorAccent2">#2898b1</color>
+    <color name="background">#e8e8e8</color>
+
+</resources>

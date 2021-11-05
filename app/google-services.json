@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "373206949378",
+    "project_id": "lidermanapp",
+    "storage_bucket": "lidermanapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373206949378:android:c7e6bf7e997a8ea6dbd11b",
+        "android_client_info": {
+          "package_name": "com.liderman.mundolidermanapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373206949378-htp1isr8fk9o67k28slk9iig5q288dpq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuEjmBUMy1Jia3waNsANqWicM_eRcJRck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373206949378-htp1isr8fk9o67k28slk9iig5q288dpq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

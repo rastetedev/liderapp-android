@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ContentGeneralLogin">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/fondo_liderman</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LidermanContentLogin">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">260dp</item>
+        <item name="android:layout_marginStart">40dp</item>
+        <item name="android:layout_marginEnd">40dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:background">@drawable/shape_white</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LidermanLogoLogin">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:background">@drawable/mundo_liderman_logo</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+    </style>
+
+    <style name="LidemanLoginInput">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:background">@drawable/border_botton_dark</item>
+        <item name="android:layout_marginBottom">@dimen/margin_login_input_content</item>
+        <item name="android:paddingTop">@dimen/padding_login_input_content</item>
+        <item name="android:paddingBottom">@dimen/padding_login_input_edit_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LidemanLoginInput.Edit">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:background">@drawable/border_botton_dark</item>
+        <item name="android:layout_marginBottom">@dimen/margin_login_input_content</item>
+        <item name="android:paddingTop">@dimen/padding_login_input_content</item>
+        <item name="android:paddingBottom">@dimen/padding_login_input_edit_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
+    <style name="LidermanLoginPasswordNew">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/text_size_login_register</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!--    Screen: Splash -->
+
+    <style name="LoginThemeWhite">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="LoginBackground">
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="LoginLogo">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_login_logo</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom_login_logo</item>
+        <item name="android:layout_width">@dimen/width_login_logo</item>
+        <item name="android:layout_height">@dimen/height_login_logo</item>
+
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="LoginTitle">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">14dp</item>
+        <item name="android:layout_marginBottom">14dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/text_size_login_title</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="LoginForm">
+        <item name="android:layout_marginLeft">@dimen/margin_login_controls_all</item>
+        <item name="android:layout_marginRight">@dimen/margin_login_controls_all</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="LoginInputContent">
+        <item name="android:background">@drawable/border_botton_dark</item>
+        <item name="android:layout_marginBottom">@dimen/margin_login_input_content</item>
+        <item name="android:paddingTop">@dimen/padding_login_input_content</item>
+    </style>
+
+    <style name="LoginInputContent.Text">
+        <item name="android:paddingBottom">@dimen/padding_login_input_content</item>
+    </style>
+
+    <style name="LoginInputContent.Edit">
+        <item name="android:paddingBottom">@dimen/padding_login_input_edit_content</item>
+
+    </style>
+
+    <style name="LoginInputIcon">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_width">@dimen/size_login_input_icon</item>
+        <item name="android:layout_height">@dimen/size_login_input_icon</item>
+    </style>
+
+    <style name="LoginInputIcon.Left">
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <style name="LoginInputIcon.Right">
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+
+    <style name="LoginInputIcon.Edit">
+        <item name="android:layout_marginTop">@dimen/margin_login_input_icon</item>
+        <item name="android:layout_centerVertical">false</item>
+    </style>
+
+    <style name="LoginInputIcon.Edit.Left">
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <style name="LoginInputIcon.Edit.Right">
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+
+    <style name="LoginInputIcon.Margin">
+        <item name="android:layout_marginRight">@dimen/margin_login_input_icon_show</item>
+    </style>
+
+    <style name="LoginInputIcons">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+
+    <style name="LoginInputIcons.Edit">
+        <item name="android:layout_centerVertical">false</item>
+        <item name="android:layout_marginTop">@dimen/margin_login_input_icon</item>
+    </style>
+
+    <style name="LoginInputText">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:paddingStart">@dimen/padding_left_login_input</item>
+        <item name="android:paddingRight">@dimen/padding_right_login_input</item>
+        <item name="android:textSize">@dimen/text_size_login_input</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">@dimen/size_login_input</item>
+    </style>
+
+    <style name="LoginInputHint">
+        <item name="android:textColor">@color/text_fourth</item>
+        <item name="android:textColorHint">@color/text_fourth</item>
+        <item name="android:textSize">@dimen/text_size_login_hint</item>
+        <item name="colorControlNormal">@color/text_fourth</item>
+        <item name="colorControlActivated">@color/text_fourth</item>
+        <item name="colorControlHighlight">@color/text_fourth</item>
+    </style>
+
+    <style name="LoginInputEdit">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:paddingStart">@dimen/padding_left_login_input</item>
+        <item name="android:paddingRight">@dimen/padding_right_login_input</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textSize">@dimen/text_size_login_input</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">@dimen/size_login_input</item>
+    </style>
+
+    <style name="LoginInputTextEdit">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:paddingStart">@dimen/padding_left_login_input</item>
+        <item name="android:paddingRight">@dimen/padding_right_login_input</item>
+        <item name="android:textSize">@dimen/text_size_login_input</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:minHeight">@dimen/size_login_input_edit</item>
+    </style>
+
+    <style name="LoginForgot">
+        <item name="android:layout_gravity">right</item>
+        <item name="android:textSize">@dimen/text_size_login_forgot</item>
+        <item name="android:color">@color/text_tertiary</item>
+    </style>
+
+    <style name="LoginImage">
+        <item name="android:layout_marginTop">@dimen/margin_login_button</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">@dimen/size_login_image</item>
+        <item name="android:layout_height">@dimen/size_login_image</item>
+    </style>
+
+    <style name="LoginButton">
+        <item name="android:layout_marginLeft">@dimen/margin_login_controls_all</item>
+        <item name="android:layout_marginRight">@dimen/margin_login_controls_all</item>
+        <item name="android:textSize">@dimen/text_size_login_button</item>
+    </style>
+
+    <style name="LoginNotUser">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">@dimen/margin_login_not_user</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/text_size_login_register</item>
+        <item name="android:color">@color/text_tertiary</item>
+    </style>
+
+    <style name="LoginChangeUser">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">@dimen/margin_login_change_user</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/text_size_login_register</item>
+        <item name="android:color">@color/text_secondary</item>
+    </style>
+
+    <style name="LoginRegisterLink">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/text_size_login_register</item>
+        <item name="android:color">@color/text_tertiary</item>
+    </style>
+
+    <style name="LoginRegisterLink.Center">
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <!--    End Screen Splash -->
+</resources>

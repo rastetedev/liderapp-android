@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="26dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginEnd="26dp"
+    android:elevation="26dp"
+    app:cardCornerRadius="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorDivision"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="280dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/renunciaatencion"
+                android:text="@string/dialog_forgot_subtitle_first"
+                app:layout_constraintBottom_toBottomOf="@id/txt_tareo_description"
+                app:layout_constraintStart_toEndOf="@+id/txt_tareo_description"
+                app:layout_constraintTop_toTopOf="@id/txt_tareo_description" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txt_tareo_description"
+                style="@style/BoldAppSubtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Atención"
+                android:textAlignment="center"
+                android:textSize="28sp"
+                app:srcCompat="@drawable/icon_check" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!-- ESTOS SON LOS LINEARS QUE VAN LOS BOTONES-->
+
+        <!-- LINEAR LAYOUT LIMA Y PROVINCIA-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/lnl_principal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:visibility="visible">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Este acceso es para las renuncias con 30 días de anticipación, si deseas ser exonerado del plazo dictado por ley, debes comunicarte con tu Líder Zonal."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="23sp" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_cancelar_renuncia"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/botonsemigris"
+                    android:text="Cancelar"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_continuar_renuncia"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="2.3"
+                    android:background="@drawable/botonconsulta"
+                    android:text="Continuar"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

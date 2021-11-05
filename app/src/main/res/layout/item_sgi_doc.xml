@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btn_standard"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    style="@style/OptionGeneralDirectory">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img_document"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="24dp"
+        android:src="@drawable/ic_0_document_icon" />
+
+    <TextView
+        android:id="@+id/title_document"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|bottom"
+        android:layout_marginStart="18dp"
+        android:gravity="center_vertical"
+        android:text="Estándares"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/ic_icono_go"
+        android:tint="@color/colorPrimary2" />
+
+</LinearLayout>

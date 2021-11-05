@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:elevation="26dp"
+    app:cardCornerRadius="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EBE6DA"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txt_tareo_description"
+                style="@style/BoldAppSubtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="10dp"
+                android:text="Antes de continuar \n elige el chat que deseas"
+                app:srcCompat="@drawable/icon_check" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/sucamesito_dialogo"
+                android:scaleType="fitCenter"
+                android:text="@string/dialog_forgot_subtitle_first"
+                app:layout_constraintBottom_toBottomOf="@id/txt_tareo_description"
+                app:layout_constraintStart_toEndOf="@+id/txt_tareo_description"
+                app:layout_constraintTop_toTopOf="@id/txt_tareo_description" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!-- ESTOS SON LOS LINEARS QUE VAN LOS BOTONES-->
+
+        <!-- LINEAR LAYOUT LIMA Y PROVINCIA-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/lnl_principal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_curso_sucamec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/botoncasigris"
+                android:text="Curso Sucamec"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_licencia_armas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/botonsemigris"
+                android:text="Licencia Armas"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_renovaciones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/botoncasigris"
+                android:text="Renovaciones"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

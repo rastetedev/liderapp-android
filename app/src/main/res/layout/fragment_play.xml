@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".presentation.ui.fragment.PlayFragment">
+
+    <TextView
+        android:id="@+id/lider_boy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Hola, Liderboy"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_gravity="start"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="Entérate de las novedades en Liderman Play"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_main"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginStart="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="16dp"
+        android:orientation="vertical"
+        app:cardBackgroundColor="@color/colorWhite">
+
+        <ImageView
+            android:id="@+id/image_url_video"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#8f212121"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/lbl_play_empty"
+            android:visibility="gone"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:text="@string/no_lidermanplays"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:gravity="start|center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Puedes seguirnos en"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn_twitter"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:backgroundTint="#00acee"
+            android:src="@drawable/ic_twitter"/>
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn_youtube"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:backgroundTint="#c4302b"
+            android:src="@drawable/ic_youtube"/>
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn_facebook"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:backgroundTint="#3b5998"
+            android:src="@drawable/ic_facebook"/>
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn_linkedin"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:backgroundTint="#0e76a8"
+            android:src="@drawable/ic_linkedin"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        style="@style/RecyclerPrestamos"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="2"
+        tools:listitem="@layout/item_play_liderman" />
+
+</LinearLayout>

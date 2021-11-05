@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_icono_home"
+        android:title="Inicio"
+        app:cnb_iconColor="@color/red" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_icono_semaforo"
+        android:title="Semáforo"
+        app:cnb_iconColor="@color/red" />
+
+    <item
+        android:id="@+id/navigation_play"
+        android:icon="@drawable/ic_play"
+        android:title="LiderPlay"
+        app:cnb_iconColor="@color/red" />
+
+    <item
+        android:id="@+id/navigation_person"
+        android:icon="@drawable/ic_icono_perfil"
+        android:title="Perfil"
+        app:cnb_iconColor="@color/red" />
+
+</menu>

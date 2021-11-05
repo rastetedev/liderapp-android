@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ContentGeneralLidermania"
+    tools:context=".presentation.ui.activity.home.LidermaniaActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary2"
+        android:elevation="5dp">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedLidermania"
+        style="@style/NestedLidermania">
+
+        <LinearLayout style="@style/LinearContentLidermania">
+
+            <ImageView
+                android:id="@+id/btn_culture"
+                style="@style/ImageLidermania"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/btn_one"
+                style="@style/ButtonCardLidermaniaAnimation.AmaTrato" />
+
+            <TextView
+                android:id="@+id/btn_two"
+                style="@style/ButtonCardLidermaniaAnimation.AmaPago" />
+
+            <TextView
+                android:id="@+id/btn_three"
+                style="@style/ButtonCardLidermaniaAnimation.AmaVida" />
+
+            <TextView
+                android:id="@+id/btn_four"
+                style="@style/ButtonCardLidermaniaAnimation.AmaCrece" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

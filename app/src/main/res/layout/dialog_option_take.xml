@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:elevation="16dp"
+    app:cardCornerRadius="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_icono_camara"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:drawableTint="@color/black"
+            android:background="@color/white"
+            android:text="Camara" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_gallery"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:background="@color/white"
+            android:drawableTint="@color/black"
+            android:text="Galleria" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

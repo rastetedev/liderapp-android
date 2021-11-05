@@ -1,0 +1,2 @@
+include ':app', ':kbottomnavigation', ':spinner'
+rootProject.name = "MundoLidermanApp"

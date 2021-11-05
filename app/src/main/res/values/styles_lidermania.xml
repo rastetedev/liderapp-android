@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ContentGeneralLidermania">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:background">@drawable/background_temporal</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ToolbarGeneral">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">@color/grey_edit_disabled</item>
+    </style>
+
+    <style name="NestedLidermania">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
+    <style name="LinearContentLidermania">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="TitleLidermaniaText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/shape_red_transparent</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:text">LIDERMANÍA</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="ImageLidermania">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">280dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:src">@drawable/pasaporte_liderman</item>
+    </style>
+
+    <style name="ImageLidermania.AmaCrece">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">280dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:src">@drawable/amacrecechica</item>
+    </style>
+
+    <style name="emergency">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">280dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_marginTop">-40dp</item>
+        <item name="android:layout_marginBottom">-40dp</item>
+        <item name="android:src">@drawable/app_ambulancia_emergencia</item>
+    </style>
+
+    <style name="payments">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">280dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:src">@drawable/payments</item>
+    </style>
+
+
+    <style name="Sgi">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">280dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/app_sgi_documentos_lidermans</item>
+    </style>
+
+    <style name="ButtonCardLidermaniaAnimation">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:elevation">1dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">8sp</item>
+    </style>
+
+    <style name="ButtonCardLidermaniaAnimation.AmaTrato">
+        <item name="android:background">@drawable/tab_one</item>
+    </style>
+
+    <style name="ButtonCardLidermaniaAnimation.AmaPago">
+        <item name="android:background">@drawable/tab_two</item>
+        <item name="android:layout_marginTop">-20dp</item>
+    </style>
+
+    <style name="ButtonCardLidermaniaAnimation.AmaVida">
+        <item name="android:background">@drawable/tab_three</item>
+        <item name="android:layout_marginTop">-20dp</item>
+    </style>
+
+    <style name="ButtonCardLidermaniaAnimation.AmaCrece">
+        <item name="android:background">@drawable/tab_four</item>
+        <item name="android:layout_marginTop">-20dp</item>
+    </style>
+
+</resources>

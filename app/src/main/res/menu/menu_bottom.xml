@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="AlwaysShowAction">
+
+    <item
+        android:id="@+id/shipping"
+        android:enabled="true"
+        android:icon="@drawable/ic_padlock_black"
+        android:title="Subastas"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/work"
+        android:enabled="true"
+        android:icon="@drawable/ic_padlock_black"
+        android:title="Mis entregas"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/notifications"
+        android:enabled="true"
+        android:icon="@drawable/ic_padlock_black"
+        android:title="Notificaciones"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/person"
+        android:enabled="true"
+        android:icon="@drawable/ic_padlock_black"
+        android:title="Perfil"
+        app:showAsAction="ifRoom" />
+
+</menu>

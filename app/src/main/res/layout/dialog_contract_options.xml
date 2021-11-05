@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:elevation="26dp"
+    app:cardCornerRadius="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EBE6DA"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- LINEAR Options -->
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/lnl_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:visibility="visible">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="145dp"
+                android:layout_height="115dp"
+                android:background="@drawable/circulo_rojo_mujer_app"
+                android:text="@string/dialog_forgot_subtitle_first"
+                app:layout_constraintBottom_toBottomOf="@id/txt_tareo_description"
+                app:layout_constraintStart_toEndOf="@+id/txt_tareo_description"
+                app:layout_constraintTop_toTopOf="@id/txt_tareo_description" />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:id="@+id/txt_options"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Acabas de abrir tu contrato, te presentamos las siguientes opciones que te permitirán legalizarlo."
+                android:textSize="24sp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_subscription"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/botonsemigris"
+                android:text="SUSCRIBIR"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_download"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/botonsemigris"
+                android:text="DESCARGAR"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_read"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/botonsemigris"
+                android:text="VOLVER A LEER"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!-- LINEAR success-->
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/lnl_success"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:padding="-16dp"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="165dp"
+                android:layout_height="135dp"
+                android:background="@drawable/circulo_verde_chec"
+                android:text="@string/dialog_forgot_subtitle_first"
+                app:layout_constraintBottom_toBottomOf="@id/txt_tareo_description"
+                app:layout_constraintStart_toEndOf="@+id/txt_tareo_description"
+                app:layout_constraintTop_toTopOf="@id/txt_tareo_description" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="¡Has suscrito tu\ncontrato con éxito!"
+                android:textSize="36sp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="260dp"
+                android:layout_height="235dp"
+                android:background="@drawable/app_guardar_info"
+                android:text="@string/dialog_forgot_subtitle_first"
+                app:layout_constraintBottom_toBottomOf="@id/txt_tareo_description"
+                app:layout_constraintStart_toEndOf="@+id/txt_tareo_description"
+                app:layout_constraintTop_toTopOf="@id/txt_tareo_description" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!-- LINEAR download-->
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/lnl_download"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:padding="-16dp"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="165dp"
+                android:layout_height="135dp"
+                android:background="@drawable/circulo_azul_transferencia_documentos"
+                android:text="@string/dialog_forgot_subtitle_first"
+                app:layout_constraintBottom_toBottomOf="@id/txt_tareo_description"
+                app:layout_constraintStart_toEndOf="@+id/txt_tareo_description"
+                app:layout_constraintTop_toTopOf="@id/txt_tareo_description" />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:id="@+id/txt_download"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Has descargado tu contrato. Por favor, le pedimos firmarlo, colocar su nombre completo y DNI; y devolverlo, en archivo escaneado o fotografía, al WhatsApp correspondiente dentro de los siguientes próximos 3 días hábiles."
+                android:textSize="24sp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/botonconsulta"
+                android:text="ENTENDIDO"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

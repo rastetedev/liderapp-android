@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_temporal"
+    tools:context=".presentation.ui.activity.home.lidermania.AmaLifeActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary2"
+        android:elevation="5dp"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/btn_one"
+        style="@style/ButtonCardLidermaniaAnimation"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/tab_three"
+        android:paddingStart="60dp"
+        android:paddingEnd="0dp"
+        android:textSize="14sp"
+        android:layout_gravity="right"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        tools:ignore="HardcodedText,SmallSp" />
+
+    <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+        android:id="@+id/carousel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_one"
+        android:layout_above="@+id/txt_caption"
+        app:autoPlay="false"
+        app:autoPlayDelay="5000"
+        app:carouselBackground="@android:color/transparent"
+        app:carouselType="BLOCK"
+        app:imageScaleType="centerCrop"
+        app:imageViewId="@id/image_view"
+        app:itemLayout="@layout/custom_item_layout"
+        app:nextButtonId="@id/btn_next"
+        app:nextButtonLayout="@layout/custom_next_button_layout"
+        app:nextButtonMargin="8dp"
+        app:previousButtonId="@id/btn_previous"
+        app:previousButtonLayout="@layout/custom_previous_button_layout"
+        app:previousButtonMargin="8dp"
+        app:scaleOnScroll="true"
+        app:scalingFactor=".25"
+        app:showBottomShadow="false"
+        app:showCaption="false"
+        app:showIndicator="false"
+        app:showNavigationButtons="true"
+        app:showTopShadow="false" />
+
+    <TextView
+        android:id="@+id/txt_caption"
+        android:layout_above="@+id/linearLayout2"
+        android:text="test test test test test test test test test test test test test test test test test test test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_requirements"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Requisitos"
+            android:layout_margin="8dp"
+            style="@style/SecondButtonText"
+            android:layout_weight="1"
+            tools:ignore="HardcodedText" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_inscription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Inscribirme"
+            android:layout_margin="8dp"
+            style="@style/MainButtonText"
+            android:layout_weight="1"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+

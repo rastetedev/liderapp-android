@@ -1,0 +1,227 @@
+<resources>
+    <string name="app_name">LIDER APP</string>
+
+
+    <string name="error_400">Error 400</string>
+
+    <!-- GENERAL ERRORS -->
+    <string name="service_error">Ocurrió un error el servidor, inténtelo más tarde por favor.</string>
+    <string name="unknown_error">Ocurrió un error inesperado, inténtelo más tarde por favor.</string>
+    <string name="try_error">Ocurrió un error inesperado, vuelva a iniciar sesión por favor.</string>
+
+    <!-- SERVICES ERRORS -->
+    <string name="error_login_credentials_dni">El DNI es obligatorio..</string>
+    <string name="error_login_credentials_password">El password es obligatorio.</string>
+    <string name="error_login_service">Los credenciales no son correctas o no esta registrado.</string>
+    <string name="error_lidernet_load">No hay un lidernet asignado por el momento.</string>
+    <string name="error_contract_load">No hay un contrato asignado por el momento.</string>
+
+    <!--VIEW MESSAGES -->
+    <string name="no_contacts">No hay números de contacto actualmente.</string>
+    <string name="no_announcements">No hay novedades actualmente.</string>
+    <string name="lidernet_answered">Lidernet ya contestado.</string>
+    <string name="no_ama_tratos">No hay Ama Tratos actualmente.</string>
+    <string name="no_ama_pays">No hay Ama Pagos actualmente.</string>
+    <string name="no_ama_lifes">No hay Ama Pagos actualmente.</string>
+    <string name="no_lidermanplays">No hay Liderman actualmente.</string>
+
+    <!--VIEW LABELS -->
+    <string name="user_greeting">Hola, %1$s</string>
+    <string name="user_name">%1$s</string>
+    <string name="user_dni">DNI: %1$s</string>
+    <string name="user_unidad">Unidad: %1$s</string>
+    <string name="user_zona">Zona: %1$s</string>
+    <string name="user_points">%1$s pts</string>
+
+    <!--LINKS-->
+    <string name="no_acoso_link">https://mundoliderman.com/noalacoso/</string>
+    <string name="coronavirus_link">https://www.gob.pe/minsa/</string>
+    <string name="twitter_link">https://twitter.com/LidermanOficial/</string>
+    <string name="linkedin_link">https://pe.linkedin.com/company/liderman</string>
+    <string name="youtube_link">https://www.youtube.com/channel/UCdyJMQ9s_c_PcXF179hWKqg</string>
+    <string name="pasaporte_link">https://mundoliderman.com/culturaliderman/#pasaporte</string>
+
+    <!--HOME -->
+    <string name="mundo_liderman">Mundo Liderman</string>
+    <string name="home_subtitle">¿Qué necesitas hacer hoy?</string>
+    <string name="consulta">Consulta</string>
+    <string name="option_novedades">Novedades</string>
+    <string name="option_sgi_doc">SGI Doc</string>
+    <string name="option_lidermania">Lidermanía</string>
+    <string name="option_líneas_emergencia">Líneas de Emergencia</string>
+    <string name="option_campaña">Campaña No Al Acoso</string>
+    <string name="option_coronavirus">Campaña Coronavirus</string>
+
+    <!--SEMAFORO -->
+    <string name="lights">Semáforo</string>
+
+    <!--LidermanPlay -->
+    <string name="lidermanplay">Liderman Play</string>
+
+    <!--PERFIL -->
+    <string name="profile">Mi Perfil</string>
+
+
+
+    <string name="error_lidernet_answer">No todos las respuestas son correctas. Vuelve a intentarlo más tarde.</string>
+    <string name="error_lidernet_finished">Ya se envió las respuestas de este Lidernet</string>
+
+
+
+    <string name="error_payment_load">No se encontró la boleta.</string>
+
+    <string name="error_profile_image_no_found">No se encuentra la imagen</string>
+    <string name="error_profile_image_no_compatible">La imagen no es compatible</string>
+
+    <string name="error_profile_update">No hay datos para actualizar.</string>
+
+    <string name="error_logout">Hubo un error al cerrar sesión. Intentelo más tarde.</string>
+
+
+    <string name="sgi_no_docs">No hay documentos por el momento</string>
+
+
+
+    <string name="ama_lifes_no_requirements">No hay requisitos por el momento</string>
+    <string name="ama_lifes_no_inscription">No hay formulario de inscripción por el momento</string>
+    <string name="ama_tratos_no_requirements">No hay requisitos por el momento</string>
+    <string name="ama_tratos_no_inscription">No hay formulario de inscripción por el momento</string>
+
+
+
+    <string name="error_try_again">Vuelva a intentar</string>
+    <string name="login_dni">DNI</string>
+
+    <string name="login_button_forgot_one">¿Olvidaste tu contraseña?</string>
+    <string name="login_button_forgot_two">Recupérala</string>
+    <string name="forgot_button">Recuperar contraseña</string>
+    <string name="title_activity_example">ExampleActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_welcome">Bienvenido Liderman</string>
+
+
+    <string name="lbl_dialog_usercreated_subtitle_one">Acabas de crear tu usuario</string>
+
+    <string name="lbl_usercreated_content">Tu usuario para el aplicativo Mundo Liderman acaba de ser creado. Por favor, inicia sesión con tus credenciales recien ingresadas.</string>
+    <string name="dialog_ok">Entendido</string>
+
+
+    <string name="text_changePassword_security">Para mayor seguridad, es importante que su contraseña tenga las siguientes características:</string>
+    <string name="text_changePassword_upperCase">· Al menos un carácter en mayúscula.</string>
+    <string name="text_changePassword_number">· Al menos un número.</string>
+    <string name="text_changePassword_textSpecial">· Al menos un caracter especial(.,/*+-_:!#$%=).</string>
+    <string name="text_changePassword_user">· No debe contener el nombre de usuario.</string>
+    <string name="error_required">Este campo es requerido.</string>
+    <string name="error_changePassword_wrapper">Las contraseñas no deben ser iguales.</string>
+
+
+    <string name="title_activity_ama_pay">AmaPayActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="style_bold_remember"><b>Recuerda:</b> En caso desees la exoneración de los 30 días de acuerdo a ley, comunicate con tu líder zonal o jefe de operaciones.</string>
+    <string name="style_bold_remember_3"><b>Recuerda:</b> esta pregunta solo es para los colaboradores que trabajaron en el aeropuerto</string>
+    <string name="style_bold_remember_5"><b>Recuerda:</b> tener en cuenta la pregunta solo si le entregaron dichos activos para su prestación de servicios.</string>
+    <string name="style_bold_remember_6"><b>Recuerda:</b> tener en cuenta la pregunta, solo si le entregaron lo mencionado para su prestación de servicios.</string>
+    <string name="dialog_user_created">Usuario creado</string>
+
+
+    <!-- LOGIN -->
+    <string name="login_button_forgot"><u>¿Has olvidado tu contraseña?</u></string>
+    <string name="login_new_user"><u>¿Eres nuevo por aquí?</u></string>
+
+    <!-- OLVIDAR CONTRASEÑA -->
+    <string name="forgot_toolbar">Recuperar contraseña</string>
+    <string name="forgot_title">Por favor ingresa tu dirección de correo electrónico para que puedas recibir tu contraseña temporal</string>
+
+    <string name="dialog_forgot_title">¡ Correo enviado !</string>
+    <string name="dialog_forgot_subtitle_first">Verifica tu bandeja</string>
+    <string name="dialog_forgot_content_first">Hemos enviado un correo a tu bandeja de entrada. Ahí encontrarás la contraseña temporal con la que podrás iniciar sesión.</string>
+    <string name="dialog_forgot_subtitle_second">¿No recibiste el correo?</string>
+    <string name="dialog_forgot_content_second">Por favor verifica en tu carpeta de Spam. Si no se encuentra ahi, intenta de nuevo o comunícate con soporte *******.</string>
+
+    <!-- NUEVO USUARIO -->
+    <string name="new_user_title">Por favor ingresa tu usuario (DNI) y crea tu contraseña para usar el aplicativo Mundo Liderman (Puede ser la misma que usas siempre).</string>
+
+
+
+
+
+
+
+
+
+    <!-- NOVEDADES -->
+    <string name="announces_title">Entérate aquí de todas nuestras novedades</string>
+
+    <!-- SGI - Docs -->
+    <string name="sgi_title">SGI - DOCUMENTOS</string>
+
+    <!-- EMERGENCIAS -->
+    <string name="emergency_subtitle">Es importante conocer los números para emergencias.</string>
+    <string name="emergency_num">NÚM</string>
+    <string name="emergency_detail">Detalle</string>
+    <string name="emergency_minsa">MINSA - Coronavirus</string>
+    <string name="emergency_police">Policía Nacional</string>
+    <string name="emergency_carretera">Policía de Carreteras</string>
+    <string name="emergency_defensa_civil">Defensa Civil</string>
+    <string name="emergency_bomberos">Bomberos</string>
+    <string name="emergency_denuncias">MININTER - Denuncias</string>
+    <string name="emergency_violencia">MIMP - Violencia Familiar,\nviolaciones y otros.</string>
+    <string name="emergency_samu">SAMU (urgencias médicas)</string>
+
+    <!-- FINANCIAMIENTO -->
+    <string name="financiamiento_requirement_first">- Tener más de 06 meses laborando con nosotros.</string>
+    <string name="financiamiento_requirement_second">- No registrar préstamos mayores a S/250.00 (Doscientos cincuenta soles) pendientes.</string>
+    <string name="financiamiento_requirement_third">- Estar al día en tus autocapacitaciones (ESL).</string>
+    <string name="financiamiento_requirement_fourth">- Semáforo de conducta en verde.</string>
+    <string name="financiamiento_requirement_fifth">- Haber visualizado el Lidernet del mes.</string>
+
+    <string name="beca_requirement_first">- Tener más de 01 año laborando con nosotros.</string>
+    <string name="beca_requirement_second">- Estar al día en tus autocapacitaciones (ESL).</string>
+    <string name="beca_requirement_third">- Semáforo de conducta en verde.</string>
+    <string name="beca_requirement_fourth">- Haber visualizado el Lidernet del mes.</string>
+
+    <string name="premium_requirements_first">- Tener más de 03 año laborando con nosotros.</string>
+    <string name="premium_requirements_second">- Contar con cursos de Ama Crece registrados.</string>
+    <string name="premium_requirements_third">- Estar al día en tus autocapacitaciones (ESL).</string>
+    <string name="premium_requirements_fourth">- Semáforo de conducta en verde.</string>
+    <string name="premium_requirements_fifth">- Haber visualizado el Lidernet del mes.</string>
+    <string name="premium_requirements_sixth">- Aprobar un compendio de evaluaciones internas.</string>
+
+    <!-- FINANCIAMIENTO -->
+
+    <!--TEXT -->
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="email">Correo electrónico</string>
+    <string name="send">Enviar</string>
+    <string name="enter">Ingresar</string>
+    <string name="field_required">Campo requerido</string>
+
+    <string name="lidermania">LIDERMANÍA</string>
+    <string name="ama_trato">Ama Trato</string>
+    <string name="ama_vida">Ama Vida</string>
+    <string name="ama_pago">Ama Pago</string>
+    <string name="ama_crece">Ama Crece</string>
+    <string name="requirements">Requisitos</string>
+    <string name="quiero_crecer">Quiero Crecer</string>
+    <string name="write_here">Escribe aquí</string>
+
+
+
+    <!--ERROR -->
+    <string name="email_not_found_error">Correo no registrado en el aplicativo. Por favor, crea tu usuario.</string>
+    <string name="no_ama_trata">No hay Ama Tratos</string>
+    <string name="no_ama_vida">No hay Ama Vidas</string>
+
+
+
+</resources>
